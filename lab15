@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class lab14{
+   public static void main (String args[]){
+      float p, r,  t,  si;
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter the Principal Amount");
+      p = sc.nextInt();
+      System.out.println("enter Rate per Annum");
+      r = sc.nextInt();
+      System.out.println("enter the time in years");
+      t = sc.nextInt();
+      si  = (p*r*t)/100;
+      System.out.println("Simple Interest is: " +si);
+    }
+    }
